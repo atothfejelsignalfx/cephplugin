@@ -236,7 +236,7 @@ class CollectdCephStorage(object):
 		
                 for plugintype in osd:
 		    
-                    collectd.info(thing)
+                    #collectd.info(thing)
                 
 		    osd_id = 'osd-{}'.format(osd['osd'])
                     if plugintype == 'kb_used':
