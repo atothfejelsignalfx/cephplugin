@@ -5,10 +5,10 @@ Reference this link: https://github.com/akrzos/collectd-ceph-storage
 Overview
 This plugin issues commands against Ceph in order to obtain valuable metrics regarding the performance and health of your Ceph cluster.
 
-Sample Graphs
-Sample Graphs
-Sample Graphs
+
+
 Metrics
+
 collectd-ceph-storage-cluster/gauge-total_avail
 collectd-ceph-storage-cluster/gauge-total_space
 collectd-ceph-storage-cluster/gauge-total_used
@@ -38,6 +38,7 @@ collectd-ceph-storage-pool-(pool name)/gauge-size
 collectd-ceph-storage-pool-(pool name)/gauge-write_bytes_sec
 collectd-ceph-storage-pool-(pool name)/gauge-write_op_per_sec
 collectd-ceph-storage-pool/gauge-number
+
 Install / Configuration
 Assuming you have collectd installed already, append the following plugin details to your collectd.conf config file. Adjust the configuration items as you see fit. The plugin must be able to subprocess the ceph and rados commands.
 
